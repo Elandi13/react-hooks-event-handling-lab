@@ -8,7 +8,7 @@ function Keypad(){
     }
 
     return(
-        <input type="password" onClick ={handleChage} />
+        <input type="password" onChange={handleChage} />
     )
 }
 
