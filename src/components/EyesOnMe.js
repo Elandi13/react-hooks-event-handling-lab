@@ -14,23 +14,11 @@ function EyesOnMe (){
 
     return(
 
-        <button onFocus={handleFocus} onBlue ={handleBlur}>
+        <button onFocus={handleFocus} onBlur={handleBlur}>
             Eyes on me
         </button>
     )
-}
-
-
-
-
-
-
-
-
-
-
-
-
+    }
 
 
 export default EyesOnMe
